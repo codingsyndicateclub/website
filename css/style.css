@@ -120,6 +120,12 @@ a:focus {
   border-radius: 20%;
 }
 
+.navbar-brand img{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5% 10% 5% 10%;
+}
+
 .navbar-brand:focus {
     outline: 0;
 }
