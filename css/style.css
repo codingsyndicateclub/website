@@ -866,5 +866,9 @@ Parallax
 		border-radius: 50%;
 		font-size: 20px;
 	}
+        
+        .mail{
+            font-size: 50%;
+        }
 	
 }
