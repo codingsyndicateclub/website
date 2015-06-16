@@ -739,7 +739,8 @@ pre code {
     margin-right:auto;
     margin-left:auto;
     padding-left:15px;
-    padding-right:15px
+    padding-right:15px;
+    text-align: center;
 }
 
 @media (min-width:768px) {
@@ -3836,7 +3837,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 @media (min-width:768px) {
 .nav-tabs.nav-justified>li {
     display:table-cell;
-    width:1%
+    width:16.6%
 }
 
 .nav-tabs.nav-justified>li>a {
@@ -3911,8 +3912,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 @media (min-width:768px) {
 .nav-justified>li {
     display:table-cell;
-    width:1%
-}
+    width: 16.6%;}
 
 .nav-justified>li>a {
     margin-bottom:0
@@ -4063,7 +4063,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .navbar-brand {
     float:left;
-    padding:15px;
+    padding:0px;
     font-size:18px;
     line-height:20px;
     height:20px
@@ -4150,8 +4150,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 @media (min-width:768px) {
 .navbar-nav {
     float:left;
-    margin:0
-}
+    margin:0}
 
 .navbar-nav>li {
     float:left

@@ -104,17 +104,21 @@ a:focus {
     background-color: black;
 }
 
-.navbar-brand {
+#centerMe{
+    margin: 0 auto;
+}
+
+/*.navbar-brand {
     font-weight: 700;
 }
 .navbar-brand {
-  height: 40px;
-  padding: 5px 15px;
-  font-size: 18px;
-  line-height: 1em;
-}
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 1em;
+}*/
 
-.navbar-brand h1{
+/*.navbar-brand h1{
 	color: #fff;
   font-size: 20px;
   line-height: 40px;
@@ -122,17 +126,18 @@ a:focus {
   padding-left: 0.5em;
   padding-right: 0.5em;
   border-radius: 20%;
-}
+}*/
 
-.navbar-brand img{
+#logoImg{
     background-color: black;
     border-radius: 5px;
-    padding: 5% 10% 5% 10%;
+    padding: 1% 2% 1% 2%;
+    margin: 2px;
 }
 
-.navbar-brand:focus {
+/*.navbar-brand:focus {
     outline: 0;
-}
+}*/
 
 .nav.navbar-nav {
     /*background-color: rgba(255,255,255,.85);*/
@@ -366,9 +371,10 @@ hr {
 	background: url(../img/random1.jpg) no-repeat top center;
 }
 
+/* moved to media queries
 #intro.intro {
 	padding:20% 0 0 0;
-}
+}*/
 
 .intro .slogan {
 	text-align: center;
@@ -387,6 +393,8 @@ hr {
     font-size: 18px;
 }
 
+/*
+'CSS' text is replaced with the logo, no more need for font customisation
 .intro .slogan h2 {
 	color:  #fff;
 	text-shadow: none;
@@ -401,13 +409,15 @@ hr {
 	border-color: #000;
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
-}
+}*/
 
+/*
+removed
 .intro .slogan h4 {
 	color: #fff;
         background-color: black;
 	text-shadow: -1px 1px 1px #000;
-}
+}*/
 
 /* ===========================
 --- Tools
@@ -814,10 +824,10 @@ Parallax
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 	
-    .intro {
+/*    .intro {
         height: 100%;
         padding: 0;
-    }
+    }*/
 
     .brand-heading {
         font-size: 100px;
@@ -828,7 +838,16 @@ Parallax
         font-size: 25px;
     }
 
-
+    #logoImg{
+        width: 30%;
+        height: 30%;
+    }
+    
+    #intro.intro{
+        height: 100%;
+        padding: 15% 0 0 0;
+    }
+        
 }
 @media (max-width:768px) {
 	
@@ -839,7 +858,15 @@ Parallax
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
-
+        
+        #logoImg{
+            width: 40%;
+            height: 40%;
+        }
+        
+        #intro.intro{
+            padding: 15% 0 0 0;
+        }
 	
 }
 
@@ -869,6 +896,15 @@ Parallax
         
         .mail{
             font-size: 50%;
+        }
+        
+        #logoImg{
+            width: 50%;
+            height: 50%;
+        }
+        
+        #intro.intro{
+            padding: 25% 0 0 0;
         }
 	
 }
