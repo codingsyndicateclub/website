@@ -1118,7 +1118,7 @@
                                 </a>
                             </div>
                         </div>
-                        <p>&copy;Copyright 2014 - CSS. All rights reserved.</p>
+                        <p id="copy"></p>
                     </div>
                 </div>	
             </div>
@@ -1163,6 +1163,17 @@
                         });
             });
             $.noConflict();
+        </script>
+        <script type="text/javascript">
+            $(document).ready
+            (
+                function()
+                {
+                    var date = new Date().getFullYear();
+
+                    $("#copy").html("&copy;Copyright " + date + " - CSS. All rights reserved.");
+                }
+            );
         </script>
     </body>
 
