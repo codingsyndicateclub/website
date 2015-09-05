@@ -18,8 +18,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
-    display:block
-}
+    display:block}
 
 audio,canvas,progress,video {
     display:inline-block;
@@ -279,8 +278,7 @@ select {
 :before,:after {
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing:border-box
-}
+    box-sizing:border-box}
 
 html {
     font-size:62.5%;
@@ -322,8 +320,7 @@ figure {
 }
 
 img {
-    vertical-align:middle
-}
+    vertical-align:middle}
 
 .img-zoom
 {
@@ -781,8 +778,7 @@ pre code {
 }
 
 .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 {
-    float:left
-}
+    float:left}
 
 .col-xs-12 {
     width:100%
@@ -1200,8 +1196,7 @@ pre code {
 
 @media (min-width:992px) {
 .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
-    float:left
-}
+    float:left}
 
 .col-md-12 {
     width:100%
