@@ -361,7 +361,7 @@ hr {
     width:100%;
     position:relative;
     background-color: black;
-    background: url(../img/random1.jpg) no-repeat top center;
+    background: url(../img/random2.png) no-repeat top center;
 }
 
 /* moved to media queries
@@ -372,7 +372,7 @@ hr {
 .intro .slogan {
     text-align: center;
 
-    padding: 0% 0% 2% 0%;
+    padding: 0%;
 }
 
 .intro .slogan .col-md-6{
@@ -487,6 +487,10 @@ removed
 /* ===========================
 --- About
 ============================ */
+
+.AboutPics{
+    width: 50%;
+}
 
 .boxed-grey {
     background: #f9f9f9;

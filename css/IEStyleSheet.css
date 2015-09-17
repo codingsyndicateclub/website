@@ -1,0 +1,103 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
+
+body {
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    color: #666;
+    text-align: center;
+}
+
+
+.background{
+    width: 110%;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    z-index: -1;
+}
+
+.frontpage{
+    margin: 10% 5% 10% 5%;
+}
+
+#logoImg{
+    background-color: black;
+    padding: 1% 2% 1% 2%;
+    margin: 2px;
+    height: 20%;
+    width: 20%;
+    behavior: url(css/border-radius.htc);
+    border-radius: 10px;
+}
+
+.warning{
+    background-color: red;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    display: block;
+}
+
+#topspan{
+    display:block;
+    color: white;
+    background-color: black;
+    behavior: url(css/border-radius.htc);
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1% 3% 1% 3%;
+}
+
+.clubInfo{
+    color: white;
+    background-color: black;
+    behavior: url(css/border-radius.htc);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: courier;
+    font-weight: bold;
+    text-align: left;
+}
+
+.clubColumns{
+    padding: 1% 5% 1% 5%;
+}
+
+.clubInfoPadding{
+    padding: 1% 3% 1% 3%;
+}
+
+.tab{
+    display: block;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.AboutPics{
+    width: 30%;
+}
+
+.bg-gray{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #E7E7E7;
+}
+
+.Section1{
+    margin: 25% 25% 22% 25%;
+}
+
+.Section2{
+    margin: 1% 0% 3% 0%;
+}
+
+table{
+    width: 100%;
+    table-layout:fixed;
+}
